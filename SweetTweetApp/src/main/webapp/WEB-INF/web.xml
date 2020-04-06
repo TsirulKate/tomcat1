@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>ServletStatus</servlet-name>
+    <servlet-class>ServletStatus</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletStatus</servlet-name>
+    <url-pattern>/status</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ServletTest1</servlet-name>
+    <servlet-class>ServletTest1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletTest1</servlet-name>
+    <url-pattern>/test1</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SweetTweetApp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SweetTweetApp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SweetTweetApp.war">
+      <element id="artifact" artifact-name="SweetTweetApp:war exploded" />
+    </root>
+  </artifact>
+</component>
